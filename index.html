@@ -65,7 +65,8 @@
 <script type="text/javascript">
 	$(document).ready(function()
 	{
-		$('a').click(function()
+		$('a').touch(function()
+		//$('a').click(function()
 		{
       // alert("Clicked");
          var selected=$(this);
@@ -79,12 +80,14 @@
 		$d=$('.d'),
 		$home=$('.home'),
 		$aboutus=$('.aboutus');
-
-		$a.click(function(){
+                
+		$a.touch(function(){
+		//$a.click(function(){
 			$home.fadeIn();
 			$aboutus.fadeOut();
 		});
-	$b.click(function(){
+		$b.touch(function(){
+	//$b.click(function(){
          
          $home.fadeOut();
          $aboutus.fadeIn();
