@@ -20,133 +20,76 @@
 
 </body>
 </html>-->
-*{
-	margin: 0;
-	padding: 0;
-}
-html,body{
- width: 100%;
-	height: 100%;
-	font-size: 14px;
-	font-weight: normal;
+<!DOCTYPE html>
+<html>
+<head>
+	<title>
+		
 
-}
-.background{
-	
-	width: 100%;
-	height: 100%;
-	background-image: url(../images/bnk4.png);
-	 background-position: top  ;
-    background-size: cover;
-	background-repeat: no-repeat;
-	background-size: cover;
-	position: relative;
-	overflow-y: auto;
+	</title>
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+</head>
+<body>
+	<div class="background">
+		<div class="nav">
+			<a class="a active" href="#"> HOME</a>
+			<a class="b" href="#">ABOUT</a>
+			<a class="c" href="#">GALLERY</a>
+			<a class="d" href="#">Contactus</a>
+			
+		</div>
 
+<div class="content">
+	<div class="home">
+		<h1>I am Nanda Kumar </h1>
+		<h2>Website Designer</h2>
+		<!--<h3>Passionate in Music...<h3>	-->	
+	</div>
+	<div class="aboutus">
+		<p><b>Hello Friends</b><br>
+			Welcome to my <b>Website.</b><br>
+			This site is all about my Life Experience....<br>
+			So,Please connect with me....
+			
+		</p>
+		
+	</div>
+</div>
 
-}
-.nav{
-	width: 350px;
-	height: auto;
-	/*background-color: grey;*/
-	position: absolute;
-	top: 20%;
-	left: 0%;
-}
-.nav a{
-	text-decoration: none;
-	font-size: 28px;
-	font-family: verdana;
-	font-weight: bold;
-	/*width: 100%;*/
-	height: 90px;
-	margin: 5px 0;
-	float: left;
-	display: inline-block;
-	background-color: black;
-	color: white;
-	line-height: 90px;
-	text-align: center;
-	transition: 300ms;
-}
-
-/*a.active{
-	background-color: white;
-	color: black;
-}*/
-a.active,.nav a:hover{
-	background-color: white;
-	color:black;
-	width: 100%;
-}
-.a{
- width: 95%;
-
-}
-
-.b{
-	width: 85%;
-}
-.c{
-	width: 70%;
-}
-.d{
-	width: 90%;
-
-}
+	</div>
 
 
-.content{
-	position: absolute;
-width: 1030px;
-min-height: 500px;
-height: auto;
-/*background-color: red;*/
-right: 0;
-top: 10%;
+<script type="text/javascript" src="js/jquery-3.3.1.min.js"></script>
+<script type="text/javascript">
+	$(document).ready(function()
+	{
+		$('a').click(function()
+		{
+      // alert("Clicked");
+         var selected=$(this);
+         $('a').removeClass('active');
+         $(selected).addClass('active');
 
-}
-.home{
-	position: absolute;
-	right: 0;
-	bottom: -60px;
-    color: white;
-    font-family: verdana; 
-    text-transform: uppercase;
-}
-.home h1{
-	font-size: 75px;
-	padding-right: 90px;
-	border-bottom: 1px dotted white;
-	text-transform: uppercase;
-}
-.home h2{
-	font-size: 28px;
-	padding: 5px 0;
-	opacity: 0.3;
-}
+		});
+		var $a=$('.a'),
+		$b=$('.b'),
+		$c=$('.c'),
+		$d=$('.d'),
+		$home=$('.home'),
+		$aboutus=$('.aboutus');
 
-.aboutus{
-	position: absolute;
-	width: 930px;
-	
-	right: 0;
-	/*bottom: -50px;*/
-	top: 40px;
-	color: white;
-	font-family:century gothic;
-	padding:0 60px;
-	display: none;
-}
-.aboutus p{
-	font-size: 16px;
-	line-height: 28px;
-	margin: bottom:15px;
+		$a.click(function(){
+			$home.fadeIn();
+			$aboutus.fadeOut();
+		});
+	$b.click(function(){
+         
+         $home.fadeOut();
+         $aboutus.fadeIn();
+	});
 
-}
+	});
+</script>
 
-
-
-
-
-
+</body>
+</html>
