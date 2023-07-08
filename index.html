@@ -1,0 +1,105 @@
+<!--<!DOCTYPE html>
+<html>
+<head>
+	<title>
+		
+
+	</title>
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+</head>
+<body>
+	<div class="background">
+		<div class="nav">
+			<a class="a active" href="#"> HOME</a>
+			<a class="b" href="#">ABOUT</a>
+			<a class="c" href="#">GALLERY</a>
+			<a class="d" href="#">CoNNECT ME</a>
+			
+		</div>
+	</div>
+
+</body>
+</html>-->
+<!DOCTYPE html>
+<html>
+<head>
+	<title>
+		
+
+	</title>
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+</head>
+	
+	<script> "use strict";  !function() {   var t = window.driftt = window.drift = window.driftt || [];   if (!t.init) {     if (t.invoked) return void (window.console && console.error && console.error("Drift snippet included twice."));     t.invoked = !0, t.methods = [ "identify", "config", "track", "reset", "debug", "show", "ping", "page", "hide", "off", "on" ],      t.factory = function(e) {       return function() {         var n = Array.prototype.slice.call(arguments);         return n.unshift(e), t.push(n), t;       };     }, t.methods.forEach(function(e) {       t[e] = t.factory(e);     }), t.load = function(t) {       var e = 3e5, n = Math.ceil(new Date() / e) * e, o = document.createElement("script");       o.type = "text/javascript", o.async = !0, o.crossorigin = "anonymous", o.src = "https://js.driftt.com/include/" + n + "/" + t + ".js";       var i = document.getElementsByTagName("script")[0];       i.parentNode.insertBefore(o, i);     };   } }(); drift.SNIPPET_VERSION = '0.3.1'; drift.load('3akzy9dnsbt2'); </script>
+<body>
+	<div class="background">
+		<div class="nav">
+			<a class="a active" href="#"> HOME</a>
+			<a class="b" href="#">ABOUT</a>
+			<a class="c" href="#">GALLERY</a>
+			<a class="d" href="#">Contactus</a>
+			
+		</div>
+
+<div class="content">
+	<div class="home">
+		<h1>I am Nanda</h1>
+		<h2>Website Designer</h2>
+		<h3>Passionate in Music...<h3>		
+	</div>
+	<div class="aboutus">
+		<p><b>Hello Friends</b><br>
+			Welcome to my <b>Website.</b><br>
+			This site is all about my Life Experience....<br>
+			So,Please connect with me....
+			
+		</p>
+		
+	</div>
+</div>
+
+	</div>
+
+<script
+  src="https://code.jquery.com/jquery-3.3.1.min.js"
+  integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+  crossorigin="anonymous"></script>
+	
+<script type="text/javascript">
+	$(document).ready(function()
+	{
+		//$('a').touch(function()
+		$('a').click(function()
+		{
+     
+			
+	//alert("Clicked");
+         var selected=$(this);
+         $('a').removeClass('active');
+         $(selected).addClass('active');
+
+		});
+		var $a=$('.a'),
+		$b=$('.b'),
+		$c=$('.c'),
+		$d=$('.d'),
+		$home=$('.home'),
+		$aboutus=$('.aboutus');
+                
+		//$a.touch(function(){
+		$a.click(function(){
+			$home.fadeIn();
+			$aboutus.fadeOut();
+		});
+		//$b.touch(function(){
+	$b.click(function(){
+         
+         $home.fadeOut();
+         $aboutus.fadeIn();
+	});
+
+	});
+</script>
+
+</body>
+</html>
