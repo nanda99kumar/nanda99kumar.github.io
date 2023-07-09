@@ -1,0 +1,18 @@
+{
+  "files": {
+    "main.css": "/nanda99kumar.github.io/nanda/static/css/main.d99980b4.css",
+    "main.js": "/nanda99kumar.github.io/nanda/static/js/main.215da317.js",
+    "static/js/787.ced97632.chunk.js": "/nanda99kumar.github.io/nanda/static/js/787.ced97632.chunk.js",
+    "static/media/studentmanagementphoto.png": "/nanda99kumar.github.io/nanda/static/media/studentmanagementphoto.e1ce329c080109167c98.png",
+    "static/media/loginregistration.jpeg": "/nanda99kumar.github.io/nanda/static/media/loginregistration.47734151b96d3007b2ae.jpeg",
+    "static/media/personalportfolioimage.jpeg": "/nanda99kumar.github.io/nanda/static/media/personalportfolioimage.866df86dc4fff1efc592.jpeg",
+    "index.html": "/nanda99kumar.github.io/nanda/index.html",
+    "main.d99980b4.css.map": "/nanda99kumar.github.io/nanda/static/css/main.d99980b4.css.map",
+    "main.215da317.js.map": "/nanda99kumar.github.io/nanda/static/js/main.215da317.js.map",
+    "787.ced97632.chunk.js.map": "/nanda99kumar.github.io/nanda/static/js/787.ced97632.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.d99980b4.css",
+    "static/js/main.215da317.js"
+  ]
+}
